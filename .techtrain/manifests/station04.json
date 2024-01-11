@@ -1,0 +1,12 @@
+{
+  "name": "Station 4",
+  "id": 145,
+  "tests": [
+    {
+      "type": "junit-compat",
+      "command": "yarn playwright test station04",
+      "args": [],
+      "shell": true
+    }
+  ]
+}
