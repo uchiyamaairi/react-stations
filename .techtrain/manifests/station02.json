@@ -1,12 +1,17 @@
 {
-  "name": "Station 2",
-  "id": 143,
+  "name": "Station 02",
+  "id": 2,
+  "prepare": [],
   "tests": [
     {
       "type": "junit-compat",
-      "command": "yarn playwright test station02",
-      "args": [],
-      "shell": true
+      "command": "npx",
+      "args": [
+        "vitest",
+        "--reporter=junit",
+        "--watch=false",
+        "./tests/station02.test.tsx"
+      ]
     }
   ]
 }

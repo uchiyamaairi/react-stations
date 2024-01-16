@@ -1,18 +1,17 @@
 {
-  "name": "station 1",
-  "id": 142,
-  "prepare": [
-    {
-      "command": "yarn lite-server",
-      "background": true
-    }
-  ],
+  "name": "Station 01",
+  "id": 1,
+  "prepare": [],
   "tests": [
     {
       "type": "junit-compat",
-      "command": "yarn playwright test station01",
-      "args": [],
-      "shell": true
+      "command": "npx",
+      "args": [
+        "vitest",
+        "--reporter=junit",
+        "--watch=false",
+        "./tests/station01.test.tsx"
+      ]
     }
   ]
 }
