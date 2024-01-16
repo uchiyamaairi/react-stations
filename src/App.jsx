@@ -1,7 +1,6 @@
 // DO NOT DELETE
 
 import './App.css'
-// import  {dog}  from 'https://images.dog.ceo/breeds/corgi-cardigan/n02113186_6539.jpg'
 /**
  * @type {() => JSX.Element}
  */
